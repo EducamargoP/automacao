@@ -1,37 +1,42 @@
-# automação
+💬 PASSO A PASSO – Criando um bot de perguntas e respostas no Telegram
+Acesse o Telegram e procure pelo BotFather.
 
-PASSO A PASSO DOS CODIGOS JUPYTER 'criando um robo que escreva automático'
+Crie um bot com ele e receba sua chave de API.
 
-webdriver e selenium = tem que ser instalados no terminal junto ao jupyter
+No PyCharm, instale a biblioteca com:
 
-selenium = ele comandar o browser automatico
+bash
+pip install pytelegrambotapi
+No código, crie uma variável para armazenar sua chave API.
 
-webdriver = ele faz o papel de identificar qual versão esta o browser para nao temos que colocar a versão
+Use bot.polling() para manter o bot sempre ativo (como um loop infinito).
 
-find_element = como vamos encontrar um elemento na pagina usando (xpath)
+Crie um decorador com @ e uma função def para definir o comportamento do bot.
 
-xpath = para achar clicar com botão direito no site e ir em inspecionar
+Use @bot.message_handler() para capturar as mensagens e definir quando o bot deve responder.
 
-.send_keys = para escrever dentro do objeto selecionado no xpath
+------------------------------------------------------------------------------------------------------------
 
-jupyter e anaconda = temos que fazer downloads e acessar via termina, apos adicionar ele ira abrir via browser
+Automação com Jupyter, Selenium e Telegram
+💻 PASSO A PASSO – Criando um robô que escreve automaticamente
+Instalação de pacotes
+Selenium e WebDriver precisam ser instalados via terminal no Jupyter.
 
-o que a API faz 
+Selenium: Comanda o navegador de forma automática.
 
-- api feita para acessar um site e fazer um cadastro
+WebDriver: Identifica a versão do navegador instalado, evitando a necessidade de inserir manualmente a versão correta.
 
--PASSO A PASSO TELEGRAM 'CRIANDO UMAS PERGUNTAS E RESPOSTA boot'
+Manipulação de elementos no site
+find_element: Método usado para localizar elementos na página, geralmente com xpath.
 
-1 - passo entrar no telegram e chamar Botfather 
+xpath: Para encontrá-lo, clique com o botão direito no site e selecione Inspecionar.
 
-2- criar um acesso com ele e coletar a chave-api que ele vai te mandar 
+.send_keys: Permite escrever dentro de um objeto identificado via xpath.
 
-3 - no pycharm baixar ' pip install pytelegrambotapi ' 
+Jupyter e Anaconda
+Faça o download e instale.
 
-4 - no pycharm criar uma variavel com a chave-api
+Após adicionar, acesse pelo terminal. O Jupyter será aberto no navegador automaticamente.
 
-5 - bot.pollig() 'ele e como se fosse um lup infinito'
-
-6 - temos que criar um decoração '@' e uma função 'def' 
-
-7 -  @bot.message_handlers(), ele pega a informação e diz quando tem quer usar
+O que uma API faz?
+Neste contexto, a API foi feita para acessar um site e realizar cadastros automaticamente.
