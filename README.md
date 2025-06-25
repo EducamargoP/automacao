@@ -1,4 +1,4 @@
-# automacao
+# automação
 
 PASSO A PASSO DOS CODIGOS JUPYTER 'criando um robo que escreva para voce'
 
