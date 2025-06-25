@@ -1,6 +1,6 @@
 # automação
 
-PASSO A PASSO DOS CODIGOS JUPYTER 'criando um robo que escreva para voce'
+PASSO A PASSO DOS CODIGOS JUPYTER 'criando um robo que escreva automático'
 
 webdriver e selenium = tem que ser instalados no terminal junto ao jupyter
 
